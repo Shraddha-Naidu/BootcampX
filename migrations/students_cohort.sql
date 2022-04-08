@@ -16,4 +16,4 @@ CREATE TABLE student (
   cohort_id INTEGER REFERENCES cohorts(id) ON DELETE CASCADE
 );
 
-/* Cohorts table created first because it's linked to*/
+/* Cohorts table created first because students is linked to it*/
